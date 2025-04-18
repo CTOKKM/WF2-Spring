@@ -10,6 +10,8 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Controller
 public class CourseController {
@@ -28,7 +30,12 @@ public class CourseController {
     @GetMapping("/courses")
     public String listCourses(Model model) {
         List<Course> courses = courseService.getAllCourses();
-        model.addAttribute("courses", courses);
+        Map<Integer, Map<Integer, List<Course>>> coursesByYear = courses.stream()
+                .collect(Collectors.groupingBy(
+                    Course::getYear,
+                    Collectors.groupingBy(Course::getSemester)
+                ));
+        model.addAttribute("coursesByYear", coursesByYear);
         return "course/list";
     }
 
@@ -53,7 +60,12 @@ public class CourseController {
             courses = courseService.getAllCourses();
         }
         
-        model.addAttribute("courses", courses);
+        Map<Integer, Map<Integer, List<Course>>> coursesByYear = courses.stream()
+                .collect(Collectors.groupingBy(
+                    Course::getYear,
+                    Collectors.groupingBy(Course::getSemester)
+                ));
+        model.addAttribute("coursesByYear", coursesByYear);
         return "course/list";
     }
 
