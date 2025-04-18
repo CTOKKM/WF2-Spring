@@ -16,6 +16,23 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/controller/CreditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/dao/CourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/dao/CreditDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/entity/Credit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/service/CreditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/credits/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/credits/semester-details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744984335449</updated>
-      <workItem from="1744984336486" duration="3673000" />
+      <workItem from="1744984336486" duration="3994000" />
     </task>
     <servers />
   </component>
