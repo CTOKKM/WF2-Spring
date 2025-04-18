@@ -25,7 +25,7 @@ public class Course {
     private Integer semester;
 
     @NotBlank(message = "강의코드는 필수 입력 항목입니다.")
-    @Pattern(regexp = "^[A-Z]{2,3}\\d{3}$", message = "강의코드는 영문 2-3자리와 숫자 3자리로 구성되어야 합니다.")
+    @Pattern(regexp = "^.{6}$", message = "강의코드는 6자리로 입력해야 합니다.")
     @Column(name = "course_code", nullable = false, length = 20)
     private String courseCode;
 

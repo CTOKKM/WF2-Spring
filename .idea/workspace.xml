@@ -10,29 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aa8b97a-1d52-459f-9e3c-376a8054441b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/controller/CreditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/dao/CourseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/dao/CreditDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/entity/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kkm/service/CreditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appServlet/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/credits/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/credits/semester-details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kkm/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kkm/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744984335449</updated>
-      <workItem from="1744984336486" duration="3994000" />
+      <workItem from="1744984336486" duration="4334000" />
     </task>
     <servers />
   </component>

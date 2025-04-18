@@ -15,7 +15,7 @@
             <div class="card-body">
                 <h2 class="card-title">${empty course.id ? '새 강의 등록' : '강의 수정'}</h2>
                 
-                <form:form modelAttribute="course" action="/courses/save" method="post">
+                <form:form modelAttribute="course" action="${pageContext.request.contextPath}/courses/save" method="post">
                     <form:hidden path="id"/>
                     
                     <div class="mb-3">
