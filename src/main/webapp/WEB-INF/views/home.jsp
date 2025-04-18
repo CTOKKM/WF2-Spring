@@ -4,12 +4,16 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>학사 정보 시스템</title>
+    <title>한성대학교 학사 정보 시스템</title>
     <link rel="stylesheet" href="<c:url value='/resources/css/style.css'/>">
 </head>
 <body>
     <div class="container">
-        <h1>학사 정보 시스템</h1>
+        <div class="header">
+            <img src="<c:url value='/resources/images/KRENGSignature.png'/>" alt="한성대학교 로고" style="height: 80px; margin-bottom: 20px;">
+            <h1>한성대학교 학사 정보 시스템</h1>
+        </div>
+        
         <div class="menu-container">
             <div class="menu-item">
                 <h2>① 학년별 이수 학점 조회</h2>

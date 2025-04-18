@@ -4,12 +4,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>학년별 이수 학점 조회</title>
+    <title>학년별 이수 학점 조회 - 한성대학교</title>
     <link rel="stylesheet" href="<c:url value='/resources/css/style.css'/>">
 </head>
 <body>
     <div class="container">
-        <h1>학년별 이수 학점 조회</h1>
+        <div class="header">
+            <img src="<c:url value='/resources/images/KRENGSignature.png'/>" alt="한성대학교 로고" style="height: 60px; margin-bottom: 15px;">
+            <h1>학년별 이수 학점 조회</h1>
+        </div>
         
         <c:forEach var="yearEntry" items="${creditsByYear}">
             <div class="year-section">

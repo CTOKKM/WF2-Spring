@@ -4,15 +4,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>강의 목록</title>
+    <title>강의 목록 - 한성대학교</title>
     <link rel="stylesheet" href="<c:url value='/resources/css/style.css'/>">
 </head>
 <body>
     <div class="container">
-        <h1>강의 목록</h1>
+        <div class="header">
+            <img src="<c:url value='/resources/images/KRENGSignature.png'/>" alt="한성대학교 로고" style="height: 60px; margin-bottom: 15px;">
+            <h1>강의 목록</h1>
+        </div>
         
         <!-- 검색 폼 -->
-        <div class="card mb-4">
+        <div class="card">
             <div class="card-body">
                 <form action="<c:url value='/courses/search' />" method="get" class="row g-3">
                     <div class="col-md-2">
@@ -46,10 +49,10 @@
                 </div>
                 
                 <c:forEach var="yearEntry" items="${coursesByYear}">
-                    <div class="year-section mb-4">
+                    <div class="year-section">
                         <h2>${yearEntry.key}학년도</h2>
                         <c:forEach var="semesterEntry" items="${yearEntry.value}">
-                            <div class="semester-section mb-3">
+                            <div class="semester-section">
                                 <h3>${semesterEntry.key}학기</h3>
                                 <table>
                                     <thead>
